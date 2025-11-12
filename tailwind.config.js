@@ -1,3 +1,4 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,19 +7,18 @@ export default {
   ],
   theme: {
     extend: {
-      // Adicione esta seção
+      // ATUALIZAÇÃO: Mudamos a animação para algo mais sutil
       keyframes: {
-        'pulse-bg': {
-          '0%, 100%': { backgroundColor: 'rgb(17 24 39)' }, // bg-gray-900
-          '50%': { backgroundColor: 'rgb(31 41 55)' }, // bg-gray-800
+        'pulse-bg-simple': {
+          '0%, 100%': { opacity: 0.4 }, // Mais sutil
+          '50%': { opacity: 0.9 },
         }
       },
       animation: {
-        'pulse-bg': 'pulse-bg 6s ease-in-out infinite',
+        // Renomeamos a animação para corresponder
+        'pulse-bg-simple': 'pulse-bg-simple 3s ease-in-out infinite',
       }
-      // Fim da seção
     },
   },
   plugins: [],
 }
-
