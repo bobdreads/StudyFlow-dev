@@ -1,6 +1,6 @@
 # 🚀 StudyFlow
 
-![StudyFlow UI](https://i.imgur.com/example.png) > O centro de comando para estudantes de alta performance, unindo foco profundo (via timers) com retenção de longo prazo (via revisão espaçada inteligente).
+O centro de comando para estudantes de alta performance, unindo foco profundo (via timers) com retenção de longo prazo (via revisão espaçada inteligente).
 
 Este é um projeto de aplicação desktop (Tauri + React) para gerenciar sessões de estudo (Foco) e conectá-las a um sistema de registro (Log) para futuras revisões.
 
